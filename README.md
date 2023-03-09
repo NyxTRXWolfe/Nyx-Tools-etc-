@@ -1,5 +1,6 @@
 # Nyx-Tools-etc-
 
+Version 1.
 This script is intended to automate the process of repairing common Windows system file and image corruption issues, and provide feedback to the user on the progress of the repair operation
 
 > The first two lines use the Start-Process cmdlet to launch two different executables with elevated privileges (run as administrator):
@@ -8,3 +9,8 @@ This script is intended to automate the process of repairing common Windows syst
     - PowerShell.exe with the argument "DISM /Online /Cleanup-Image /RestoreHealth", which uses the Deployment Image Servicing and Management (DISM) tool to repair any system image corruption.
 
 > The third part of the script is a loop that displays a progress bar, indicating the progress of the repair operation.
+Version 1.2 Windows 10 
+
+
+
+Version 1.3 Windows 11
